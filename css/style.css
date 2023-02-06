@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+#img {
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.navbar a{
+    color: rgba(0,0,0,.87);
+}
+
+.navbar>li{
+    padding: 10px;
+}
+
+.google #google_logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+
+.search-bar {
+    margin: auto;
+    width: 550px;
+    height: 50px;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search-bar #search-box {
+    width: 480px;
+    height: 45px;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    font-size: 18px;
+    color: black;
+}
+
+.search-bar #search-box:focus {
+    outline: none;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 350px;
+}
+.button .btn {
+    width: 150px;
+    text-align: center;
+    color: #70757a;
+    height: 36px;
+    margin: 5px;
+    border-width: 1px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: #3c4043;
+}
+
+.button .btn:active {
+    border-color: aqua;
+}
+
+.button .btn:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #f2f2f2;
+}
+
+.footer-left {
+    height: 52px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.footer-right {
+    height: 52px;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left>li {
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.footer-right>li {
+    margin-right: 20px;
+    padding: 15px;
+}
+
+
+
